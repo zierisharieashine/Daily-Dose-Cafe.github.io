@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/menustyle.css">
+  <link href="image/logo.jpg" rel="icon">
+   <title>Menu - Daily Dose Café</title>
+</head>
+
+<header class="header">
+
+  <div id="menu-btn" class="fas fa-bars"></div>
+
+  <a href="https://www.facebook.com/dailydosecafemain/" class="logo">Daily Dose Café</a>
+
+  <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a class="active" href="menu.html">Menu</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="reservation.html">Reservation</a>
+  </nav>
+
+</header>
+
+<body>
+        <section id="store"
+                 class="store py-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-10 mx-auto col-sm-6 text-center">
+                <h1 class="text-capitalize">our <strong class="banner-title ">Menu</strong></h1>
+              </div>
+            </div>
+      
+            <div class="row">
+              <div class=" col-lg-8 mx-auto d-flex justify-content-around my-2 sortBtn flex-wrap">
+                <a href="#"
+                   class="btn btn-outline-secondary btn-black text-uppercase filter-btn m-2"
+                   data-filter="all">All</a>
+      
+                <a href="#"
+                   class="btn btn-outline-secondary btn-black text-uppercase filter-btn m-2"
+                   data-filter="breakfast">
+                   Breakfast</a>
+      
+                <a href="#"
+                   class="btn btn-outline-secondary btn-black text-uppercase filter-btn m-2"
+                   data-filter="drinks">Drinks</a>
+      
+                <a href="#"
+                   class="btn btn-outline-secondary btn-black text-uppercase filter-btn m-2"
+                   data-filter="snacks">Snacks</a>
+
+                   <a href="#"
+                   class="btn btn-outline-secondary btn-black text-uppercase filter-btn m-2"
+                   data-filter="samgyupsal">K-Dose</a>
+              </div>
+            </div>
+          
+            <div class="row"
+                 id="store-items">
+              <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item breakfast"
+                   data-item="breakfast">
+                <div class="card">
+                  <div class="img-container">
+                    <img src="image/nutella french toast.jpg"
+                         class="card-img-top store-img" />
+                    <span class="store-item-icon">
+                      <i class="fas fa-shopping-cart"></i>
+                    </span>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-text d-flex justify-content-between text-capitalize">
+                      <h5 id="store-item-name">Nutella French Toast</h5>
+                      <h5 class="store-item-value">₱<strong id="store-item-price"
+                                class="font-weight-bold">90</strong></h5>
+                    </div>
+                  </div>
+                </div>
+      
+      
+                <!-----End Of Card-->
+              </div>
+
+              <!--blended caramel macchiato-->
+              <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item drinks"
+                   data-item="drinks">
+                <div class="card">
+                  <div class="img-container">
+                    <img src="image/iced blended caramel macchiato.jpg"
+                         class="card-img-top store-img" />
+                    <span class="store-item-icon">
+                      <i class="fas fa-shopping-cart"></i>
+                    </span>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-text d-flex justify-content-between text-capitalize">
+                      <h5 id="store-item-name">Iced Caramel Macchiato</h5>
+                      <h5 class="store-item-value">₱<strong id="store-item-price"
+                                class="font-weight-bold">125</strong></h5>
+                    </div>
+                  </div>
+                  
+                </div>
+      
+      
+                <!-----End Of Card-->
+            </div>
+
+            <!--strawberry latte-->
+            <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item drinks"
+            data-item="drinks">
+            <div class="card">
+           <div class="img-container">
+             <img src="image/creamy strawberry latte.jpg"
+                  class="card-img-top store-img" />
+             <span class="store-item-icon">
+               <i class="fas fa-shopping-cart"></i>
+             </span>
+           </div>
+           <div class="card-body">
+             <div class="card-text d-flex justify-content-between text-capitalize">
+               <h5 id="store-item-name">Strawberry Latte</h5>
+               <h5 class="store-item-value">₱<strong id="store-item-price"
+                         class="font-weight-bold">130</strong></h5>
+             </div>
+           </div>
+           
+         </div>
+
+
+         <!-----End Of Card-->
+       </div>
+
+                <!--strawberry latte-->
+                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item drinks"
+                data-item="drinks">
+                <div class="card">
+               <div class="img-container">
+                 <img src="image/iced coffee.jpg"
+                      class="card-img-top store-img" />
+                 <span class="store-item-icon">
+                   <i class="fas fa-shopping-cart"></i>
+                 </span>
+               </div>
+               <div class="card-body">
+                 <div class="card-text d-flex justify-content-between text-capitalize">
+                   <h5 id="store-item-name">Iced Coffee</h5>
+                   <h5 class="store-item-value">₱<strong id="store-item-price"
+                             class="font-weight-bold">60</strong></h5>
+                 </div>
+               </div>
+               
+             </div>
+    
+    
+             <!-----End Of Card-->
+           </div>
+
+           <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item drinks"
+                   data-item="drinks">
+                <div class="card">
+                  <div class="img-container">
+                    <img src="image/iced blended caramel macchiato.jpg"
+                         class="card-img-top store-img" />
+                    <span class="store-item-icon">
+                      <i class="fas fa-shopping-cart"></i>
+                    </span>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-text d-flex justify-content-between text-capitalize">
+                      <h5 id="store-item-name">Iced Caramel Macchiato</h5>
+                      <h5 class="store-item-value">₱<strong id="store-item-price"
+                                class="font-weight-bold">125</strong></h5>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+
+              <!--green apple-->
+              <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item drinks"
+                   data-item="drinks">
+                <div class="card">
+                  <div class="img-container">
+                    <img src="image/Green apple slushy.jpg"
+                         class="card-img-top store-img" />
+                    <span class="store-item-icon">
+                      <i class="fas fa-shopping-cart"></i>
+                    </span>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-text d-flex justify-content-between text-capitalize">
+                      <h5 id="store-item-name">Green Apple slushy</h5>
+                      <h5 class="store-item-value">₱<strong id="store-item-price"
+                                class="font-weight-bold">??</strong></h5>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <!--choco peppermint-->
+              <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item drinks"
+                   data-item="drinks">
+                <div class="card">
+                  <div class="img-container">
+                    <img src="image/choco peppermint.jpg"
+                         class="card-img-top store-img" />
+                    <span class="store-item-icon">
+                      <i class="fas fa-shopping-cart"></i>
+                    </span>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-text d-flex justify-content-between text-capitalize">
+                      <h5 id="store-item-name">Choco peppermint</h5>
+                      <h5 class="store-item-value">₱<strong id="store-item-price"
+                                class="font-weight-bold">95</strong></h5>
+                    </div>
+                  </div>
+                </div>
+      
+      
+                <!-----End Of Card-->
+              </div>
+
+            <!--iced scrambled-->
+              <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item drinks"
+                   data-item="drinks">
+                <div class="card">
+                  <div class="img-container">
+                    <img src="image/wintermelon.jpg"
+                         class="card-img-top store-img" />
+                    <span class="store-item-icon">
+                      <i class="fas fa-shopping-cart"></i>
+                    </span>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-text d-flex justify-content-between text-capitalize">
+                      <h5 id="store-item-name">Wintermelon Milktea</h5>
+                      <h5 class="store-item-value">₱<strong id="store-item-price"
+                                class="font-weight-bold">70</strong></h5>
+                    </div>
+                  </div>
+                </div>
+      
+      
+                <!-----End Of Card-->
+              </div>
+
+            <!--mango fruit tea-->
+              <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item drinks"
+                   data-item="drinks">
+                <div class="card">
+                  <div class="img-container">
+                    <img src="image/Mango fruit tea.jpg"
+                         class="card-img-top store-img" />
+                    <span class="store-item-icon">
+                      <i class="fas fa-shopping-cart"></i>
+                    </span>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-text d-flex justify-content-between text-capitalize">
+                      <h5 id="store-item-name">Mango Fruit Tea</h5>
+                      <h5 class="store-item-value">₱<strong id="store-item-price"
+                                class="font-weight-bold">80</strong></h5>
+                    </div>
+                  </div>
+                </div>
+      
+      
+                <!-----End Of Card-->
+              </div>
+                  <!--matcha-->
+                  <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item drinks"
+                  data-item="drinks">
+               <div class="card">
+                 <div class="img-container">
+                   <img src="image/matcha.jpg"
+                        class="card-img-top store-img" />
+                   <span class="store-item-icon">
+                     <i class="fas fa-shopping-cart"></i>
+                   </span>
+                 </div>
+                 <div class="card-body">
+                   <div class="card-text d-flex justify-content-between text-capitalize">
+                     <h5 id="store-item-name">Matcha</h5>
+                     <h5 class="store-item-value">₱<strong id="store-item-price"
+                               class="font-weight-bold">130</strong></h5>
+                   </div>
+                 </div>
+               </div>
+     
+     
+               <!-----End Of Card-->
+             </div>
+                      <!--spanish latte-->
+                      <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item drinks"
+                      data-item="drinks">
+                   <div class="card">
+                     <div class="img-container">
+                       <img src="image/Spanish latte.jpg"
+                            class="card-img-top store-img" />
+                       <span class="store-item-icon">
+                         <i class="fas fa-shopping-cart"></i>
+                       </span>
+                     </div>
+                     <div class="card-body">
+                       <div class="card-text d-flex justify-content-between text-capitalize">
+                         <h5 id="store-item-name">Spanish Latte</h5>
+                         <h5 class="store-item-value">₱<strong id="store-item-price"
+                                   class="font-weight-bold">110</strong></h5>
+                       </div>
+                     </div>
+                   </div>
+         
+         
+                   <!-----End Of Card-->
+                 </div>
+
+                          <!--strawberry-->
+                          <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item drinks"
+                          data-item="drinks">
+                       <div class="card">
+                         <div class="img-container">
+                           <img src="image/strawberry fruit tea.jpg"
+                                class="card-img-top store-img" />
+                           <span class="store-item-icon">
+                             <i class="fas fa-shopping-cart"></i>
+                           </span>
+                         </div>
+                         <div class="card-body">
+                           <div class="card-text d-flex justify-content-between text-capitalize">
+                             <h5 id="store-item-name">Strawberry Fruit Tea</h5>
+                             <h5 class="store-item-value">₱<strong id="store-item-price"
+                                       class="font-weight-bold">80</strong></h5>
+                           </div>
+                         </div>
+                       </div>
+             
+             
+                       <!-----End Of Card-->
+                     </div>
+             
+              <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item snacks"
+                   data-item="snacks">
+                <div class="card">
+                  <div class="img-container">
+                    <img src="image/lemon glazed chicken wings.jpg"
+                         class="card-img-top store-img" />
+                    <span class="store-item-icon">
+                      <i class="fas fa-shopping-cart"></i>
+                    </span>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-text d-flex justify-content-between text-capitalize">
+                      <h5 id="store-item-name">Chicken Wings(6 pcs)</h5>
+                      <h5 class="store-item-value">₱<strong id="store-item-price"
+                                class="font-weight-bold">150</strong></h5>
+                    </div>
+                  </div>
+                </div>
+      
+      
+                <!-----End Of Card-->
+              </div>
+      
+      
+              <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item snacks"
+                   data-item="snacks">
+                <div class="card">
+                  <div class="img-container">
+                    <img src="image/lemon glazed chicken wings.jpg"
+                         class="card-img-top store-img" />
+                    <span class="store-item-icon">
+                      <i class="fas fa-shopping-cart"></i>
+                    </span>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-text d-flex justify-content-between text-capitalize">
+                      <h5 id="store-item-name">Chicken Wings (12 pcs)</h5>
+                      <h5 class="store-item-value">₱<strong id="store-item-price"
+                                class="font-weight-bold">280</strong></h5>
+                    </div>
+                  </div>
+                </div>
+      
+      
+                <!-----End Of Card-->
+              </div>
+      
+              <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item samgyupsal"
+                   data-item="cakes">
+                <div class="card">
+                  <div class="img-container">
+                    <img src="image/199.jpg"
+                         class="card-img-top store-img" />
+                    <span class="store-item-icon">
+                      <i class="fas fa-shopping-cart"></i>
+                    </span>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-text d-flex justify-content-between text-capitalize">
+                      <h5 id="store-item-name">Unli Samgyupsal - Pork</h5>
+                      <h5 class="store-item-value">₱<strong id="store-item-price"
+                                class="font-weight-bold">199</strong></h5>
+                    </div>
+                  </div>
+                </div>
+      
+      
+                <!-----End Of Card-->
+              </div>
+      
+              <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item samgyupsal"
+                   data-item="cakes">
+                <div class="card">
+                  <div class="img-container">
+                    <img src="image/199.jpg"
+                         class="card-img-top store-img" />
+                    <span class="store-item-icon">
+                      <i class="fas fa-shopping-cart"></i>
+                    </span>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-text d-flex justify-content-between text-capitalize">
+                      <h5 id="store-item-name">Unli Samgyupsal - Pork and Beef</h5>
+                      <h5 class="store-item-value">₱<strong id="store-item-price"
+                                class="font-weight-bold">299</strong></h5>
+                    </div>
+                  </div>
+                </div>
+                <center><a href="menuu.html" class="view">view more</a></center>
+              </div>
+            </div>
+          </div>
+        </section>
+      
+      
+      
+        <!-- jquery -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <!-- bootstrap js -->
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <!-- script js -->
+        <script src="js/menu.js"></script>
+
+</body>
+</html>

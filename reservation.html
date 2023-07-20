@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="image/logo.jpg" rel="icon">
+    <title>Reservation Form</title>
+</head>
+
+<header class="header">
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+    <a href="https://www.facebook.com/dailydosecafemain/" class="logo">Daily Dose Café</a>
+
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="gallery.html">Gallery</a>
+        <a class="active" href="reservation.html">Reservation</a>
+    </nav>
+
+</header>
+
+<body class="main_bg">
+    <div class="form">
+        <div class="form-text">
+            <h1>Reservation Form</h1>
+            <p>Please fll up the form with correct details, and we will contact you after for confirmation. Thank you!</p>
+        </div>
+        <div class="main-form">
+            <form action="https://formspree.io/f/xpzgwpkj" method="POST">
+                <div>
+                    <span>Name</span>
+                    <input type="text" name="Name" id="Name" placeholder="Write your name here..." required>
+                </div>
+                <div>
+                    <span>Email <Address></Address></span>
+                    <input type="email" name="Email" id="Email" placeholder="Write your email here..." required> 
+                </div>
+                <div>
+                    <span>How many pax?<people></people></span>
+                    <input type="text" name="Pax" id="Pax" placeholder="Number of people" min="1" max="50" required>
+                </div>
+                <div>
+                    <span>Time:</span>
+                    <input type="time" id="Time" required>
+                </div>
+                <div>
+                    <span>Date</span>
+                    <input type="date" name="Date" id="Date" placeholder="date" required>
+                </div>
+                <div>
+                    <span>Phone Number</span>
+                    <input type="number" name="Number" id="nNmber" placeholder="Write your number here..." required>
+                </div>
+                <div> 
+                    <span>Notes</span>
+                    <textarea row="10" cols="95" type="text" name="Notes" id="Notes" placeholder="If you ever want ot order in advance, please take a note here"></textarea>
+                </div>
+                <div id="submit">
+                    <input type="submit" value="SUBMIT" id="submit">
+                </div>
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>
